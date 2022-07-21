@@ -32,10 +32,10 @@ const Search = () => {
     >
       <ToastContainer />
       <div className="my-20 mb-0 flex w-3/5 content-center justify-center">
-        {/* <button
+        <button
           id="dropdown-button"
           data-dropdown-toggle="dropdown"
-          className="z-10 inline-flex flex-shrink-0 items-center rounded-l-lg border border-gray-300 bg-gray-100 py-2.5 px-4 text-center text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-700"
+          className="z-10 inline-flex flex-shrink-0 items-center rounded-l-lg border border-gray-300 bg-gray-100 py-2.5 px-4 text-center text-sm font-medium text-gray-900 hover:bg-gray-200 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-400 dark:text-white dark:hover:bg-gray-600 dark:focus:ring-gray-700"
           type="button"
         >
           Filter by
@@ -51,7 +51,7 @@ const Search = () => {
               clipRule="evenodd"
             ></path>
           </svg>
-        </button> */}
+        </button>
         {/* <div
           id="dropdown"
           className="z-10 hidden w-44 divide-y divide-gray-100 rounded bg-white shadow dark:bg-gray-700"
